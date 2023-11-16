@@ -1,0 +1,43 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2{
+    color:darkgreen;
+    font-size:1.8em;
+    margin-top: 0.5em;
+    margin-bottom:-0.5em;
+    text-align:center;
+}
+
+.authorName{
+    font-style:italic;
+    color:brown;
+}
+
+.authorTitle{
+    text-align:center;
+}
+
+.blogAll{
+    padding:5px 30px;
+    margin:15px 30px;
+    border-radius:10px 40px;
+    transition:background-color 0.3s ease;
+
+    background-color:#e5efda;
+    border-left:4px solid darkgreen;
+}
+
+.blogAll:nth-child(odd){
+    background-color:cornsilk;
+    border-left:4px solid lightcoral; 
+}
+
+.blogAll:hover{
+    background-color:moccasin;
+}
+.blogParagraph{
+    text-align:justify;
+    font-size:17px;
+}
